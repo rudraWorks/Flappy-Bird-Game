@@ -39,7 +39,7 @@ localStorage.setItem("scory",0);
 			  document.getElementById("hsvalue").textContent=localStorage.getItem("scory");
 
 			  var lv=document.getElementById("lv");
-			  var lives=5;
+			  var lives=2;
 
 			  var ctx=can.getContext("2d");
 			  can.width=innerWidth;
